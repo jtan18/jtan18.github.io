@@ -54,39 +54,14 @@ a {
 li {
     margin: 4px;
 }
-
-@media print {
-    .screen_only{
-        display: none;
-    }
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse
 }
-@media screen and (min-width:1350px) {
-    .sidenav {
-        padding-top: 15px;
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
-        left: 0;
-        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    }
-    .sidenav a {
-        width: 200px
-    }
-    .sidebaraddition {
-        width: 200px;
-    }
+th, td {
+	padding: 5px;
 }
-@media screen and (max-width:1349px){
-    .sidenav {
-        padding-top: 15px;
-        position: top;
-    }
-    .sidenav a {
-        font-size: 12px;
-        width: 200px;
-    }
-    .sidebaraddition {
-        font-size: 12px;
-        width: 200px;
-    }
-
+th {
+	text-align: center;
+	font-size: 22pt;
 }
