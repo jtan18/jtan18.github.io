@@ -1,51 +1,41 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<style>
-	table, th, td {
-		border: 1px solid black;
-		border-collapse: collapse;
-	}
-	th, td {
-		padding: 5px;
-	}
-	th {
-		text-align: left;
-	}
-</style>
+	<link rel="stylesheet" href="mycss_web.css">
+    <link rel="stylesheet" href="mycss_table.css">
 	<title> Project 1- Milestone 1 </title>
 	</head>
 	<body>
-	<h1> Project 1: Milestone One </h1>
-	
-	<h2> Menu section: </h2>
-		<ol>
-			<li> <a href="#profile"> Basic profile information section</a></li>
-			<li> <a href="#education"> Education summary section</a></li>
-			<li> <a href="#work experience"> Work experience section</a></li>
-			<li> <a href="#progskill"> Programming Skills section</a></li>
-			<li> <a href="#interests"> General Interests section</a></li>
-			<li> <a href="#fav media"> Favorite song, film and TV show section</a></li>
-			<li> <a href="#fav site"> Favorite Website section</a></li>
-			<li> <a href="#projects"> My Projects in this course</a></li>
-		</ol>
-		<form>
+	<h1 id="title"> Project 1: Milestone Two </h1>
+	<div class="sidenav">
+	<ul>
+		<li> <a href="#profile"> Basic profile information section</a></li>
+		<li> <a href="#education"> Education summary section</a></li>
+		<li> <a href="#work experience"> Work experience section</a></li>
+		<li> <a href="#progskill"> Programming Skills section</a></li>
+		<li> <a href="#interests"> General Interests section</a></li>
+		<li> <a href="#fav media"> Favorite song, film and TV show section</a></li>
+		<li> <a href="#fav site"> Favorite Website section</a></li>
+		<li> <a href="#projects"> My Projects in this course</a></li>
+	</ul>
+		<form class="sidebaraddition">
 			<label for="name">Name:</label>
 			<input type="text" id="name" name="name"><br><br>
 			<label for="email">Email:</label>
 			<input type="text" id="email" name="email"><br><br>
 		<input type="submit" value="Submit">
 		</form>
-		<p> This does not do anything but fufill the requirement of the use of the form tag as I don't see any other way to use it. 
+		<p class="sidebaraddition"> This does not do anything but fufill the requirement of the use of the form tag as I don't see any other way to use it. 
 		This is a "mailing list" where you input name and email, but the submit doesn't do anything (probably).</p>
-		
+	</div>
+	<div id="content">
+	<div id=card>
 	<h2 id="profile"> Basic profile information section: </h2>
 	<ul>
 		<li> Name: Justin Tan </li>
 		<li> Major: Computer Science with a concentration in Cyber Security Systems </li>
 		<img src="https://img.rankedboost.com/wp-content/plugins/ice/pokemon-go/Wooper-Pokemon-Go.png"> 
 	</ul>
-	
 	<h2 id="education"> Education Summary Section: </h2>
 		<p> I graduated from Saint Francis Prepatory School in Fresh Meadow, Queens. I am currently enrolled at Saint John's University persuing a BS in Computer Science with a concentration in Cyber Security Systems. </p>
 	
@@ -70,9 +60,9 @@
 	<h2 id="fav media"> Favorite song, film and TV show section: </h2>
 	<table>
 		<tr>
-			<th> Favortite <span style="color:red">Song</span> </th>
-			<th> Favortite <span style="color:blue">Film</span> </th>
-			<th> Favortite <span style="color:purple">TV Show</span> </th>
+			<th> Favorite <span style="color:red">Song</span> </th>
+			<th> Favorite <span style="color:blue">Film</span> </th>
+			<th> Favorite <span style="color:purple">TV Show</span> </th>
 		</tr>
 		<tr>
 			<td> Shiki No Uta </td>
@@ -102,12 +92,14 @@
 	<ul>
 		<li><a href="https://www.reddit.com" target="_blank"> Reddit</a><br></br>Reddit is a social news aggregation, web content rating, and discussion website.<br></br></a></li>
 		<li><a href="https://twitter.com/home" target="_blank"> Twitter</a><br></br>Twitch is a social media platform for all types of interests and different people.</a><br></br></li>
-		<li><a href="https://www.twitch.tv" target="_blank"> Twitch</a><br></br>Twitch is a website for livestreaming games, with over 15 million daily active users.</li>
+		<li><a href="" target="_blank"> Twitch</a><br></br>Twitch is a website for livestreaming games, with over 15 million daily active users.</li>
 	</ul>
 	
 	<h2 id="projects"> My Projects in this course: </h2>
 	<ol>
 		<li><a href="https://rkileaders.teachable.com/courses/764038/lectures/13897368" target="_blank"> Project 1- Milestone 1 </a></li>
 	</ol>
+	</div>
+	</div>
 	</body>
 </html>
