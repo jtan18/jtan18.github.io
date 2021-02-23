@@ -1,105 +1,118 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<link rel="stylesheet" href="/CSS/mycss_tablet.css">
-    <link rel="stylesheet" href="CSS/mycss_web.css">
-	<title> Project 1- Milestone 1 </title>
-	</head>
-	<body>
-	<h1 id="title"> Project 1: Milestone Two </h1>
-	<div class="sidenav">
-	<ul>
-		<li> <a href="#profile"> Basic profile information section</a></li>
-		<li> <a href="#education"> Education summary section</a></li>
-		<li> <a href="#work experience"> Work experience section</a></li>
-		<li> <a href="#progskill"> Programming Skills section</a></li>
-		<li> <a href="#interests"> General Interests section</a></li>
-		<li> <a href="#fav media"> Favorite song, film and TV show section</a></li>
-		<li> <a href="#fav site"> Favorite Website section</a></li>
-		<li> <a href="#projects"> My Projects in this course</a></li>
-	</ul>
-		<form class="sidebaraddition">
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name"><br><br>
-			<label for="email">Email:</label>
-			<input type="text" id="email" name="email"><br><br>
-		<input type="submit" value="Submit">
-		</form>
-		<p class="sidebaraddition"> This does not do anything but fufill the requirement of the use of the form tag as I don't see any other way to use it. 
-		This is a "mailing list" where you input name and email, but the submit doesn't do anything (probably).</p>
-	</div>
-	<div id="content">
-	<div id=card>
-	<h2 id="profile"> Basic profile information section: </h2>
-	<ul>
-		<li> Name: Justin Tan </li>
-		<li> Major: Computer Science with a concentration in Cyber Security Systems </li>
-		<img src="https://img.rankedboost.com/wp-content/plugins/ice/pokemon-go/Wooper-Pokemon-Go.png"> 
-	</ul>
-	<h2 id="education"> Education Summary Section: </h2>
-		<p> I graduated from Saint Francis Prepatory School in Fresh Meadow, Queens. I am currently enrolled at Saint John's University persuing a BS in Computer Science with a concentration in Cyber Security Systems. </p>
-	
-	<h2 id="work experience"> Work experience section: </h2>
-	<ul>
-		<li> Worked at Paul Vallone's Reelection campaign. </li>
-		<li> Worked at Queens Library. </li>
-	</ul>
-	
-	<h2 id="progskill"> Programming Skills section: </h2>
-	<ul>
-		<li> Intermediate knowledge of Java. </li>
-		<li> Basic knowledge of Python. </li>
-		<li> Basic knowledge of C#. </li>		
-	</ul>
-	
-	<h2 id="interests"> General Interests section: </h2>
-		<p> My general interests consists of Technology, in terms of modern, consumer grade technology from companies like Intel, AMD or Nvidia, gaming, anime and esports. </p>
-		<p> I am currently Co-President of the esports program at Saint Johns University, called Scarlet Tempest Esports. </p>
-		<img src="ste_logo_transparent.png" width="320" height="240"> 
 
-	<h2 id="fav media"> Favorite song, film and TV show section: </h2>
-	<table>
-		<tr>
-			<th> Favorite <span style="color:red">Song</span> </th>
-			<th> Favorite <span style="color:blue">Film</span> </th>
-			<th> Favorite <span style="color:purple">TV Show</span> </th>
-		</tr>
-		<tr>
-			<td> Shiki No Uta </td>
-			<td> Old Boy </td>
-			<td> Ping Pong the Animation </td>
-		</tr>
-		<tr>
-			<td> 
-				<div id="youtube_iframe">
-					<iframe width="320" height="240" src="https://www.youtube.com/embed/cNplZrRSjeI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</td>
-			<td> 
-				<div id="youtube_iframe">
-					<iframe width="320" height="240" src="https://www.youtube.com/embed/2HkjrJ6IK5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>				
-				</div>
-			</td>
-			<td> 
-				<div id="youtube_iframe">
-					<iframe width="320" height="240" src="https://www.youtube.com/embed/ItlDaDfLBn8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
-				</div>
-			</td>
-		</tr>
-	</table>
-	
-	<h2 id="fav site"> Favorite Website section: </h2>
-	<ul>
-		<li><a href="https://www.reddit.com" target="_blank"> Reddit</a><br></br>Reddit is a social news aggregation, web content rating, and discussion website.<br></br></a></li>
-		<li><a href="https://twitter.com/home" target="_blank"> Twitter</a><br></br>Twitch is a social media platform for all types of interests and different people.</a><br></br></li>
-		<li><a href="" target="_blank"> Twitch</a><br></br>Twitch is a website for livestreaming games, with over 15 million daily active users.</li>
-	</ul>
-	
-	<h2 id="projects"> My Projects in this course: </h2>
-	<ol>
-		<li><a href="https://rkileaders.teachable.com/courses/764038/lectures/13897368" target="_blank"> Project 1- Milestone 1 </a></li>
-	</ol>
-	</div>
-	</div>
-	</body>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/mycss_tablet.css">
+    <link rel="stylesheet" href="CSS/mycss_web.css">
+    <title> Project 1- Milestone 1 </title>
+</head>
+
+<body>
+    <div id="title" class="jumbotron text-center p3" style="margin-bottom:0">
+        <h1>Project 1: Milestone 3</h1>
+        <p>Justin's Profile Page</p>
+    </div>
+    <div class="sidenav">
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item"> <a href="#profile"> Basic profile information</a></li>
+            <li class="nav-item"> <a href="#education"> Education summary</a></li>
+            <li class="nav-item"> <a href="#work experience"> Work experience</a></li>
+            <li class="nav-item"> <a href="#progskill"> Programming Skills</a></li>
+            <li class="nav-item"> <a href="#interests"> General Interests</a></li>
+            <li class="nav-item"> <a href="#fav media"> Favorite song, film and TV show</a></li>
+            <li class="nav-item"> <a href="#fav site"> Favorite Website</a></li>
+            <li class="nav-item"> <a href="#projects"> My Projects in this course</a></li>
+        </ul>
+        <form class="sidebaraddition">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <button type="button" class="btn btn-info">Submit</button>
+        </form>
+        <p class="sidebaraddition"> This does not do anything but fufill the requirement of the use of the form tag as I don't see any other way to use it. .</p>
+    </div>
+
+    <div id="content" class="col-sm-4">
+        <div id="card">
+            <h2 id="profile"> Basic profile information</h2>
+            <ul>
+                <li> Name: Justin Tan </li>
+                <li> Major: Computer Science with a concentration in Cyber Security Systems </li>
+                <img src="https://img.rankedboost.com/wp-content/plugins/ice/pokemon-go/Wooper-Pokemon-Go.png">
+            </ul>
+            <h2 id="education"> Education Summary</h2>
+            <p> I graduated from Saint Francis Prepatory School in Fresh Meadow, Queens. I am currently enrolled at Saint John's University persuing a BS in Computer Science with a concentration in Cyber Security Systems. </p>
+
+            <h2 id="work experience"> Work experience</h2>
+            <ul>
+                <li> Worked at Paul Vallone's Reelection campaign. </li>
+                <li> Worked at Queens Library. </li>
+            </ul>
+
+            <h2 id="progskill"> Programming Skills</h2>
+            <ul>
+                <li> Intermediate knowledge of Java. </li>
+                <li> Basic knowledge of Python. </li>
+                <li> Basic knowledge of C#. </li>
+            </ul>
+
+            <h2 id="interests"> General Interests</h2>
+            <p> My general interests consists of Technology, in terms of modern, consumer grade technology from companies like Intel, AMD or Nvidia, gaming, anime and esports. </p>
+            <p> I am currently Co-President of the esports program at Saint Johns University, called Scarlet Tempest Esports. </p>
+            <img src="ste_logo_transparent.png" width="320" height="240">
+
+            <h2 id="fav media"> Favorite song, film and TV show</h2>
+            <table class="table table-hover">
+                <tr>
+                    <th> Favorite <span style="color:red">Song</span> </th>
+                    <th> Favorite <span style="color:blue">Film</span> </th>
+                    <th> Favorite <span style="color:purple">TV Show</span> </th>
+                </tr>
+                <tr>
+                    <td> Shiki No Uta </td>
+                    <td> Old Boy </td>
+                    <td> Ping Pong the Animation </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="youtube_iframe">
+                            <iframe width="320" height="240" src="https://www.youtube.com/embed/cNplZrRSjeI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="youtube_iframe">
+                            <iframe width="320" height="240" src="https://www.youtube.com/embed/2HkjrJ6IK5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="youtube_iframe">
+                            <iframe width="320" height="240" src="https://www.youtube.com/embed/ItlDaDfLBn8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <h2 id="fav site"> Favorite Website</h2>
+            <ul class="nav nav-pills flex-column">
+                <li><a href="https://www.reddit.com" target="_blank"> Reddit</a> is a social news aggregation, web content rating, and discussion website.<br></br>
+                    </a>
+                </li>
+                <li><a href="https://twitter.com/home" target="_blank"> Twitter</a> is a social media platform for all types of interests and different people.</a><br></br>
+                </li>
+                <li><a href="" target="_blank"> Twitch</a> is a website for livestreaming games, with over 15 million daily active users.</li>
+            </ul>
+
+            <h2 id="projects"> My Projects in this course</h2>
+            <ol>
+                <li><a href="https://jtan18.github.io" target="_blank"> Project
+						1- Milestone 1 & 2 </a></li>
+                <li><a href="https://jtan18bootstrap.github.io" target="_blank"> Project
+					1- Milestone 3 </a></li>
+            </ol>
+        </div>
+    </div>
+</body>
+
 </html>

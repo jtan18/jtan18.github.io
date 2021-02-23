@@ -1,17 +1,19 @@
-
-
 @media print {
-    .screen_only{
+    .screen_only {
         display: none;
     }
 }
+
 @media screen and (min-width:1350px) {
     .sidenav {
         padding-top: 15px;
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
+        z-index: 1;
+        /* Stay on top */
+        top: 0;
+        /* Stay at the top */
         left: 0;
-        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        position: fixed;
+        /* Fixed Sidebar (stay in place on scroll) */
     }
     .sidenav a {
         width: 200px
@@ -20,7 +22,8 @@
         width: 200px;
     }
 }
-@media screen and (max-width:1349px){
+
+@media screen and (max-width:1349px) {
     .sidenav {
         padding-top: 15px;
         position: top;
@@ -33,5 +36,4 @@
         font-size: 12px;
         width: 200px;
     }
-
 }
