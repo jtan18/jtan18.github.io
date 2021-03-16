@@ -1,0 +1,12 @@
+@media print {
+    .screen_only {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    #card {
+        width: 400px;
+        height: 700px;
+    }
+}

@@ -2,11 +2,39 @@
 <html>
 
 <head>
+    <script src="todo_javascript.js"></script>
+    <link rel="stylesheet" href="/CSS/mycss_tablet.css">
+    <link rel="stylesheet" href="CSS/mycss_web.css">
     <title> Assignment 2- Milestone 1 </title>
 </head>
 
 <body>
+    <div id="card">
+        <div id="title" class="jumbotron text-center p3" style="margin-bottom:0">
+            <h1>Project 2: Milestone 1</h1>
+        </div>
+        <form>
+            <h3>Input one-line description of the task, pick priority and if it is pending or completed.</h1>
+                <input type="text" id="myInput">
+                <label for="priority"></label>
+                <select id="priority">
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                </select>
+                <br>
+                <input type="radio" name="status" checked>
+                <label for="pending">Pending</label><br>
+                <input type="radio" name="status">
+                <label for="complete">Completed</label><br>
+                <span onclick="newElement()" class="addBtn">Add</span>
+                <br><br>
 
+                <ul id="tasklist">
+
+                </ul>
+    </div>
+    </form>
 </body>
 
 </html>
