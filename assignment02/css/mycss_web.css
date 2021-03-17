@@ -30,10 +30,6 @@ ul li {
     background-color: cadetblue;
 }
 
-ul li.checked {
-    text-decoration: line-through;
-}
-
 .addBtn {
     background-color: gray;
     padding: 10px;

@@ -13,28 +13,27 @@
         <div id="title" class="jumbotron text-center p3" style="margin-bottom:0">
             <h1>Project 2: Milestone 1</h1>
         </div>
-        <form>
-            <h3>Input one-line description of the task, pick priority and if it is pending or completed.</h1>
-                <input type="text" id="myInput">
-                <label for="priority"></label>
-                <select id="priority">
-                        <option value="Low">Low</option>
-                        <option value="Medium">Medium</option>
-                        <option value="High">High</option>
+
+        <h3>Input one-line description of the task, pick priority and if it is pending or completed.</h1>
+            <input type="text" id="myInput">
+            <label for="priority"></label>
+            <select id="priority" name="priority">
+                        <option value=" | Low Priority">Low</option>
+                        <option value=" | Medium Priority">Medium</option>
+                        <option value=" | High Priority">High</option>
                 </select>
+            <br>
+            <form>
+                <input type="radio" name="status" id="1" value=" | Pending" checked="checked"> Pending
+                <input type="radio" name="status" id="2" value=" | Complete"> Completed
                 <br>
-                <input type="radio" name="status" checked>
-                <label for="pending">Pending</label><br>
-                <input type="radio" name="status">
-                <label for="complete">Completed</label><br>
                 <span onclick="newElement()" class="addBtn">Add</span>
-                <br><br>
-
-                <ul id="tasklist">
-
-                </ul>
+            </form>
+            <br><br>
+            <ul id="tasklist">
+            </ul>
     </div>
-    </form>
+
 </body>
 
 </html>
