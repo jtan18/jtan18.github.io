@@ -1,231 +1,233 @@
-[{
-        "id": "1",
-        "question": "Unix/Linux, MacOS and Windows are written in C.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True",
-        "Explanation": "Unix/Linux, MacOS and Windows are written in C."
-    },
-    {
-        "id": "2",
-        "question": "What are the advantages of C?",
-        "options": [
-            "It is fast and portable",
-            "It is a small language",
-            "It has direct access to memory and hardware",
-            "All of the above"
-        ],
-        "answer": "All of the above",
-        "Explanation": "C is fast and protable, is a small langauge and has direct access to memory and hardware."
-    },
-    {
-        "id": "3",
-        "question": "Which are the disadvantage(s) of C?",
-        "options": [
-            "It is easy to write unreadable programs",
-            "There are many APIs",
-            "Option 1 and 2",
-            "None of the above"
-        ],
-        "answer": "There are many APIs",
-        "Explanation": "A disadvantage of C is that there are many APIs."
-    },
-    {
-        "id": "4",
-        "question": "How do you print in C?",
-        "options": [
-            "System.out.println();",
-            "printf();",
-            "print()",
-            "None of the above"
-        ],
-        "answer": "printf();",
-        "Explanation": "printf() is the method to print in C."
-    },
-    {
-        "id": "5",
-        "question": "What does printf mean?",
-        "options": [
-            "Print formatted output",
-            "Print for output",
-            "Print finish",
-            "None of the above"
-        ],
-        "answer": "Print formatted output",
-        "Explanation": "Printf means print formatted output."
-    },
-    {
-        "id": "6",
-        "question": "Do functions have to be declared before they are used?",
-        "options": [
-            "Yes",
-            "No"
-        ],
-        "answer": "Yes",
-        "Explanation": "Functions have to be delcared before they are used."
-    },
-    {
-        "id": "7",
-        "question": "How do you call elements in an array?",
-        "options": [
-            "array.get(x)",
-            "array[x]",
-            "array.x",
-            "None of the above"
-        ],
-        "answer": "array.x",
-        "Explanation": "array.x is the proper way to call elements in an array."
-    },
-    {
-        "id": "8",
-        "question": "What is a method to accomplish data abstraction in C?",
-        "options": [
-            "Structures",
-            "Objects",
-            "Classes",
-            "None of the above"
-        ],
-        "answer": "Structures",
-        "Explanation": "Structures is a method to accomplish data abstraction in C."
-    },
-    {
-        "id": "9",
-        "question": "What is the start of the numbering of an array in C?",
-        "options": [
-            "0",
-            "1",
-            "x",
-            "y"
-        ],
-        "answer": "0",
-        "Explanation": "The start of an array in C, like Java, is 0."
-    },
-    {
-        "id": "10",
-        "question": "C is an object-oriented language.",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "False",
-        "Explanation": "C is not an object-oriented language"
-    },
-    {
-        "id": "11",
-        "question": "Which of the following is a correct declaration of an array in C?",
-        "options": [
-            "int array[5]",
-            "int array(5)",
-            "int array[]=5",
-            "All of the above"
-        ],
-        "answer": "int array[5]",
-        "Explanation": "int array[5] is the proper way to declare an array"
-    },
-    {
-        "id": "12",
-        "question": "What is the correct format of for loops in C?",
-        "options": [
-            "for (initializationStatement; testExpression; updateStatement){}",
-            "for initializationStatement; testExpression; updateStatement =>{}",
-            "for (initializationStatement; testExpression; updateStatement) =>",
-            "None of the above"
-        ],
-        "answer": "for (initializationStatement; testExpression; updateStatement){}",
-        "Explanation": "for (initializationStatement; testExpression; updateStatement){} is the proper way to call a for loop"
-    },
-    {
-        "id": "13",
-        "question": "It is possible to create an array of structures",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True",
-        "Explanation": "It is possible to create an array of structures in C"
-    },
-    {
-        "id": "14",
-        "question": "Strings are represented as character arrays",
-        "options": [
-            "True",
-            "False"
-        ],
-        "answer": "True",
-        "Explanation": "Strings in C are represented as character arrays"
-    },
-    {
-        "id": "15",
-        "question": "What is the method to assign string values to already created strings?",
-        "options": [
-            "strcpy()",
-            "samplestring = sample",
-            "samplestring = \"sample\"",
-            "It is not possible to since strings are character arrays"
-        ],
-        "answer": "samplestring = sample",
-        "Explanation": "samplestring = sample is the way to assign string values to already created strings"
-    },
-    {
-        "id": "16",
-        "question": "What is the function to scan for input?",
-        "options": [
-            "scanf();",
-            "scan();",
-            "scan(System.in)",
-            "All of the above"
-        ],
-        "answer": "scanf();",
-        "Explanation": "scanf(); is the method to scan for inputs."
-    },
-    {
-        "id": "17",
-        "question": "What is the output of the following code, assuming sampleInt is 5?\nprintf(\"The integer is\" + sampleInt)",
-        "options": [
-            "The integer is 5",
-            "The integer is5",
-            "The integer is  5",
-            "There is an error."
-        ],
-        "answer": "There is an error",
-        "Explanation": "There is an error in the output of the code."
-    },
-    {
-        "id": "18",
-        "question": "What is a way to define a constant that has a value of 5?",
-        "options": [
-            "const int sample = 5",
-            "const int sample = 5;",
-            "constant int sample = 5;",
-            "const integer sample = 5;"
-        ],
-        "answer": "const int sample = 5;",
-        "Explanation": "The proper way to call a constant that has a value of 5 is const int sample = 5;"
-    },
-    {
-        "id": "19",
-        "question": "What is the output of the following code?\nfor (i = 1; i < 11; ++i)\n printf(\"%d \", i);",
-        "options": [
-            "1 2 3 4 5 6 7 8 9 10",
-            "1 2 3 4 5 6 7 8 9 10 11",
-            "0 1 2 3 4 5 6 7 8 9 10",
-            "0 1 2 3 4 5 6 7 8 9 10 11"
-        ],
-        "answer": "1 2 3 4 5 6 7 8 9 10",
-        "Explanation": "The code prints out 1-10 in order."
-    },
-    {
-        "id": "20",
-        "question": "What is the proper way of reading a value after the following code?\n int num;\nprintf(\"Enter an integer\");",
-        "options": [
-            "scanf(num)",
-            "scanf(\"%c\", &num)",
-            "scanf(\"%c\", num)",
-            "scanf(\"%d\", &num)"
-        ],
-        "answer": "scanf(\"%d\", &num)",
-        "Explanation": "scanf(\"%d\", &num) is the proper way of reading a value."
-    }
-]
+{
+    "questions": [{
+            "id": "1",
+            "question": "Unix/Linux, MacOS and Windows are written in C.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "Explanation": "Unix/Linux, MacOS and Windows are written in C."
+        },
+        {
+            "id": "2",
+            "question": "What are the advantages of C?",
+            "options": [
+                "It is fast and portable",
+                "It is a small language",
+                "It has direct access to memory and hardware",
+                "All of the above"
+            ],
+            "answer": "All of the above",
+            "Explanation": "C is fast and protable, is a small langauge and has direct access to memory and hardware."
+        },
+        {
+            "id": "3",
+            "question": "Which are the disadvantage(s) of C?",
+            "options": [
+                "It is easy to write unreadable programs",
+                "There are many APIs",
+                "Option 1 and 2",
+                "None of the above"
+            ],
+            "answer": "There are many APIs",
+            "Explanation": "A disadvantage of C is that there are many APIs."
+        },
+        {
+            "id": "4",
+            "question": "How do you print in C?",
+            "options": [
+                "System.out.println();",
+                "printf();",
+                "print()",
+                "None of the above"
+            ],
+            "answer": "printf();",
+            "Explanation": "printf() is the method to print in C."
+        },
+        {
+            "id": "5",
+            "question": "What does printf mean?",
+            "options": [
+                "Print formatted output",
+                "Print for output",
+                "Print finish",
+                "None of the above"
+            ],
+            "answer": "Print formatted output",
+            "Explanation": "Printf means print formatted output."
+        },
+        {
+            "id": "6",
+            "question": "Do functions have to be declared before they are used?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "answer": "Yes",
+            "Explanation": "Functions have to be delcared before they are used."
+        },
+        {
+            "id": "7",
+            "question": "How do you call elements in an array?",
+            "options": [
+                "array.get(x)",
+                "array[x]",
+                "array.x",
+                "None of the above"
+            ],
+            "answer": "array.x",
+            "Explanation": "array.x is the proper way to call elements in an array."
+        },
+        {
+            "id": "8",
+            "question": "What is a method to accomplish data abstraction in C?",
+            "options": [
+                "Structures",
+                "Objects",
+                "Classes",
+                "None of the above"
+            ],
+            "answer": "Structures",
+            "Explanation": "Structures is a method to accomplish data abstraction in C."
+        },
+        {
+            "id": "9",
+            "question": "What is the start of the numbering of an array in C?",
+            "options": [
+                "0",
+                "1",
+                "x",
+                "y"
+            ],
+            "answer": "0",
+            "Explanation": "The start of an array in C, like Java, is 0."
+        },
+        {
+            "id": "10",
+            "question": "C is an object-oriented language.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "False",
+            "Explanation": "C is not an object-oriented language"
+        },
+        {
+            "id": "11",
+            "question": "Which of the following is a correct declaration of an array in C?",
+            "options": [
+                "int array[5]",
+                "int array(5)",
+                "int array[]=5",
+                "All of the above"
+            ],
+            "answer": "int array[5]",
+            "Explanation": "int array[5] is the proper way to declare an array"
+        },
+        {
+            "id": "12",
+            "question": "What is the correct format of for loops in C?",
+            "options": [
+                "for (initializationStatement; testExpression; updateStatement){}",
+                "for initializationStatement; testExpression; updateStatement =>{}",
+                "for (initializationStatement; testExpression; updateStatement) =>",
+                "None of the above"
+            ],
+            "answer": "for (initializationStatement; testExpression; updateStatement){}",
+            "Explanation": "for (initializationStatement; testExpression; updateStatement){} is the proper way to call a for loop"
+        },
+        {
+            "id": "13",
+            "question": "It is possible to create an array of structures",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "Explanation": "It is possible to create an array of structures in C"
+        },
+        {
+            "id": "14",
+            "question": "Strings are represented as character arrays",
+            "options": [
+                "True",
+                "False"
+            ],
+            "answer": "True",
+            "Explanation": "Strings in C are represented as character arrays"
+        },
+        {
+            "id": "15",
+            "question": "What is the method to assign string values to already created strings?",
+            "options": [
+                "strcpy()",
+                "samplestring = sample",
+                "samplestring = \"sample\"",
+                "It is not possible to since strings are character arrays"
+            ],
+            "answer": "samplestring = sample",
+            "Explanation": "samplestring = sample is the way to assign string values to already created strings"
+        },
+        {
+            "id": "16",
+            "question": "What is the function to scan for input?",
+            "options": [
+                "scanf();",
+                "scan();",
+                "scan(System.in)",
+                "All of the above"
+            ],
+            "answer": "scanf();",
+            "Explanation": "scanf(); is the method to scan for inputs."
+        },
+        {
+            "id": "17",
+            "question": "What is the output of the following code, assuming sampleInt is 5?\nprintf(\"The integer is\" + sampleInt)",
+            "options": [
+                "The integer is 5",
+                "The integer is5",
+                "The integer is  5",
+                "There is an error."
+            ],
+            "answer": "There is an error",
+            "Explanation": "There is an error in the output of the code."
+        },
+        {
+            "id": "18",
+            "question": "What is a way to define a constant that has a value of 5?",
+            "options": [
+                "const int sample = 5",
+                "const int sample = 5;",
+                "constant int sample = 5;",
+                "const integer sample = 5;"
+            ],
+            "answer": "const int sample = 5;",
+            "Explanation": "The proper way to call a constant that has a value of 5 is const int sample = 5;"
+        },
+        {
+            "id": "19",
+            "question": "What is the output of the following code?\nfor (i = 1; i < 11; ++i)\n printf(\"%d \", i);",
+            "options": [
+                "1 2 3 4 5 6 7 8 9 10",
+                "1 2 3 4 5 6 7 8 9 10 11",
+                "0 1 2 3 4 5 6 7 8 9 10",
+                "0 1 2 3 4 5 6 7 8 9 10 11"
+            ],
+            "answer": "1 2 3 4 5 6 7 8 9 10",
+            "Explanation": "The code prints out 1-10 in order."
+        },
+        {
+            "id": "20",
+            "question": "What is the proper way of reading a value after the following code?\n int num;\nprintf(\"Enter an integer\");",
+            "options": [
+                "scanf(num)",
+                "scanf(\"%c\", &num)",
+                "scanf(\"%c\", num)",
+                "scanf(\"%d\", &num)"
+            ],
+            "answer": "scanf(\"%d\", &num)",
+            "Explanation": "scanf(\"%d\", &num) is the proper way of reading a value."
+        }
+    ]
+}
