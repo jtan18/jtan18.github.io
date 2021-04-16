@@ -190,7 +190,7 @@
                 "The integer is  5",
                 "There is an error."
             ],
-            "answer": "There is an error",
+            "answer": "There is an error.",
             "Explanation": "There is an error in the output of the code."
         },
         {
